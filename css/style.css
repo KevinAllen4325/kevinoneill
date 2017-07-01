@@ -575,6 +575,7 @@ footer {
 	letter-spacing: 2px;
 	font-weight: 600;
 	margin-top: 43px;
+	color: white;
 }
 
 @media screen and (max-width: 768px) {
