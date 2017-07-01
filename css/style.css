@@ -36,10 +36,6 @@ a:hover {
 }
 
 .w3-animate-opacity {
-	animation: opac 1.5s;
-}
-
-.fadein {
 	animation: opac 2s;
 }
 
@@ -91,12 +87,12 @@ header button:hover {
 
 .w3-animate-bottom {
 	position: relative;
-	animation: animatebottom 1s;
+	animation: animatebottom .65s;
 }
 
 .w3-animate-top {
 	position: relative;
-	animation: animatetop 1s;
+	animation: animatetop .65s;
 }
 
 .nav p,
