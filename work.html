@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=.9">
 	<meta name="keywords" content="Kevin O'Neill, kevin oneill, kevin allen, Kevin Allen Oneill, front end web developer in chicago illinois, web developer illinois, remote web development, remote web developer from chicago illinois, local web developers chicago, web development, html, css, javascript, jquery, mobile-first, responsive, responsive web design, create a website, web programing, website developer, web development, website programming, javascript developer, create website, best website design, freelance web developer, clean website design, develope website, webcode, clean website, simple website">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Kevin O'Neill | Front End Web Developer</title>
+	<title>Kevin O'Neill | Work</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	<div id="nav" class="nav w3-animate-opacity">
+<div id="nav" class="nav w3-animate-opacity">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="h3 col-sm-4">
@@ -30,11 +30,16 @@
 				<div class="list col-sm-4">
 					<ul>
 						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="work.html">WORK</a></li>
+						<li><a href="work.html" class="active">WORK</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
 					</ul>
 				</div>
-				<div class="social col-sm-4"> <a href="https://github.com/kevinallen4325"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/kevinallen3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://twitter.com/kevinallen4325"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.facebook.com/kevinallenoneill"><i class="fa fa-facebook" aria-hidden="true"></i></a> </div>
+				<div class="social col-sm-4">
+					<a href="https://github.com/kevinallen4325"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/kevinallen3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/kevinallen4325"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/kevinallenoneill"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -78,11 +83,11 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="pics"> <img src="photos/bus.jpg">
+					<div class="pics"> <img src="photos/guess.jpg">
 						<div class="slide">
-							<h4>Landing Page</h4>
+							<h4>JS Guessing Game</h4>
 							<hr>
-							<a href="https://kevinallen4325.github.io/business-website/" target="_blank">
+							<a href="https://kevinallen4325.github.io/GuessingGame/" target="_blank">
 								<button>DEMO</button>
 							</a>
 						</div>
@@ -123,17 +128,18 @@
 				</div>
 			</div>
 		</div>
-	<div class="container-fluid">
-		<footer> <img class="desktop" src="photos/kevinoneill2.png"> <img class="mobile" src="photos/kevinoneill2mobile.png"> </footer>
-	</div>
+		<div class="container-fluid">
+			<footer> <img class="desktop" src="photos/kevinoneill2.png"> <img class="mobile" src="photos/kevinoneill2mobile.png"> </footer>
+		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script>
-		$(".pics").hover(function () {
+		$(".pics").hover(function() {
 			$(this).find(".slide").slideToggle("fast");
-		}, function () {
+		}, function() {
 			$(this).find(".slide").slideToggle("fast");
 		});
+
 	</script>
 	<script src="app.js"></script>
 </body>
