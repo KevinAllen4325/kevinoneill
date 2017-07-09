@@ -1,20 +1,19 @@
 body,
 html {
 	height: 100%;
+	overflow: hidden;
 }
 
-* {
+r * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
 
 body {
 	position: relative;
 	background-color: #313131;
 	font-family: 'Poppins';
-	overflow: hidden;
 }
 
 .container {
@@ -96,7 +95,7 @@ header button:hover {
 	animation: animatetop .65s;
 }
 
-.active{
+.active {
 	color: #72c7b5;
 }
 
@@ -104,6 +103,10 @@ header button:hover {
 .list ul,
 .h3 {
 	margin: 0;
+}
+
+.nav ul {
+	padding: 0;
 }
 
 .nav .h3 {
@@ -159,6 +162,7 @@ header button:hover {
 	padding: 25px 15px;
 	color: white;
 	margin-bottom: 20px;
+	position: relative;
 }
 
 .skills h3 {
@@ -172,6 +176,14 @@ header button:hover {
 	font-size: 14px;
 	font-weight: 600;
 	width: 15%;
+}
+
+.ab {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #313131;
+	font-size: 20px
 }
 
 .other p {
@@ -254,6 +266,7 @@ form button {
 	box-shadow: inset 0px -7px 0px -1px rgba(79, 139, 126, 1);
 	transition: .25s;
 	border-radius: 5px;
+	margin-bottom: 40px;
 }
 
 form button:hover {
@@ -268,6 +281,11 @@ footer {
 	left: 0;
 	z-index: -1;
 	-webkit-transform: translateZ(0)
+}
+
+.fixedfix {
+	position: absolute;
+	bottom: 0;
 }
 
 .pics {
