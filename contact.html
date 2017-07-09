@@ -34,12 +34,7 @@
 						<li><a href="contact.html" class="active">CONTACT</a></li>
 					</ul>
 				</div>
-				<div class="social col-sm-4">
-					<a href="https://github.com/kevinallen4325"><i class="fa fa-github" aria-hidden="true"></i></a>
-					<a href="https://www.linkedin.com/in/kevinallen3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-					<a href="https://twitter.com/kevinallen4325"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-					<a href="https://www.facebook.com/kevinallenoneill"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				</div>
+				<div class="social col-sm-4"> <a href="https://github.com/kevinallen4325"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/kevinallen3/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://twitter.com/kevinallen4325"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.facebook.com/kevinallenoneill"><i class="fa fa-facebook" aria-hidden="true"></i></a> </div>
 			</div>
 		</div>
 	</div>
@@ -51,15 +46,19 @@
 			<p class="label">Email<span class="blue">*</span></p>
 			<input type="email" name="email" placeholder="&#xf0e0;" required>
 			<p class="label">Message<span class="blue">*</span></p>
-			<textarea name="comments" placeholder="&#xf27a;" required></textarea>
+			<textarea id="textfield" name="comments" placeholder="&#xf27a;" required></textarea>
 			<button name="send" type="submit" class="submit">SEND</button>
 		</form>
 	</div>
 	<div class="container-fluid">
 		<footer> <img class="desktop" src="photos/kevinoneill2.png"> <img class="mobile class fixedfix" src="photos/kevinoneill2mobile.png"> </footer>
 	</div>
+	<script>
+		document.getElementById('textfield').addEventListener('click', function () {
+			window.scrollTo(0, document.body.scrollHeight);
+		});
+	</script>
 	<script src="app.js"></script>
-
 </body>
 
 </html>
